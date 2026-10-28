@@ -1,0 +1,70 @@
+﻿
+body {
+    font-family: Arial, sans-serif;
+    background-color: hotpink;
+    color: black;
+    margin: 0;
+    line-height: 1.6;
+    text-align: center;
+}
+
+header {
+    background-color: #222222;
+    color: lightpink;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+    header h1 {
+        color: pink;
+        margin-bottom: 10px;
+    }
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+button {
+    background-color: slateblue;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+    button:hover {
+        background-color: deeppink;
+    }
+
+a.button {
+    background-color: slateblue;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deeppink;
+}
+
+button {
+    display: inline-block;
+    visibility: visible;
+}
+a.button {
+    display: inline-block;
+    visibility: visible;
+}
+    a.button:hover {
+        background-color: deeppink;
+    }
